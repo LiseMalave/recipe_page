@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 538px) {
   .article__container {
     width: 100%;
   }
@@ -11,9 +11,20 @@
     
   }
   .article__title{
-    margin-top: 80px;
+    margin-top: 150px;
   }
-  .article__nutrition{
-    width: ;
+  .article__nutrition {
+    width: 100%;
+    
+  }
+  
+  .article__nutrition tr{
+    width: 100%;
+ 
+  }
+  .article__nutrition td{
+    width: 100%;
+    margin-left: 20px;
+    
   }
 }
