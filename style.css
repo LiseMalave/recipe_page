@@ -106,7 +106,7 @@ hr{
     line-height: 20px;
    padding-bottom: 150px;
    padding: 10px 0;
-   background-color: aqua
+   
 }
 
 .article__instructions ol{
@@ -130,4 +130,18 @@ hr{
     color: black;
 }
 
+.article__nutrition tr{
+    display: flex;
+    width: 650px;
+    justify-content: center;
+    border-bottom: solid var(--LightGrey);
+    gap: 30px;
+}
+.article__nutrition td{
+    width: 250px;
+    padding: 10px;
 
+}
+tr:last-child{
+    border-bottom: none;
+}
